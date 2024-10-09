@@ -1,0 +1,31 @@
+name: 2024_10_08_Protein_Atlas
+channels:
+ - conda-forge
+ - bioconda
+ - defaults
+dependencies:
+
+   # R packages
+  - r-irkernel  
+  - r-base
+  - r-shinyhelper
+  - r-shiny
+  - r-shinyjs
+  - r-dplyr
+  - r-ggpmisc
+  - r-ggplot2
+  - r-plotly
+  - r-dt
+  - r-openxlsx
+  - r-readr
+
+
+  # Bioconductor
+  - bioconductor-edger
+  - bioconductor-biomart
+  
+  # JupyterLab for running notebooks
+  - jupyterlab
+  
+  # Radian for improved R REPL (optional)
+  - radian
